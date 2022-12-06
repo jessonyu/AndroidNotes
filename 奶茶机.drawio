@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T06:48:20.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44" etag="OiohhztFfcT2WqVcDi_P" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T05:52:32.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="BQKEdb03RO63qlPI9ySw" version="20.6.0" type="github">
   <diagram id="5S1ucBEcxvwEuMMHo_TW" name="Page-1">
-    <mxGraphModel dx="1114" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VVCqYUwjpVhtejmYCUsd-1" value="自助DIY小料机控制系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="VVCqYUwjpVhtejmYCUsd-1" value="出冰机软件自动控制平台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="30" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VVCqYUwjpVhtejmYCUsd-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="VVCqYUwjpVhtejmYCUsd-1" edge="1">
@@ -38,6 +38,9 @@
           <mxGeometry x="470" y="600" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VVCqYUwjpVhtejmYCUsd-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VVCqYUwjpVhtejmYCUsd-8" target="VVCqYUwjpVhtejmYCUsd-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U3d6VD6Udmkg8xg0AreB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="VVCqYUwjpVhtejmYCUsd-8" target="U3d6VD6Udmkg8xg0AreB-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VVCqYUwjpVhtejmYCUsd-8" value="参数设置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -85,7 +88,10 @@
         <mxCell id="VVCqYUwjpVhtejmYCUsd-30" value="显示设备编号，机型名称，固件版本，串口信息" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="670" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VVCqYUwjpVhtejmYCUsd-32" value="可以操控清洗开关，料仓门开关，两个推杆的上下和停止" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="U3d6VD6Udmkg8xg0AreB-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="VVCqYUwjpVhtejmYCUsd-32" target="U3d6VD6Udmkg8xg0AreB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVCqYUwjpVhtejmYCUsd-32" value="自助清洗" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="670" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VVCqYUwjpVhtejmYCUsd-34" value="显示当前网络运营商，信号强度，连接状态" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
@@ -94,33 +100,57 @@
         <mxCell id="VVCqYUwjpVhtejmYCUsd-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="VVCqYUwjpVhtejmYCUsd-36" target="VVCqYUwjpVhtejmYCUsd-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VVCqYUwjpVhtejmYCUsd-36" value="可以修改料仓出料时间，料仓反转时间，清洗热水，消毒，冷水出水时间" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="VVCqYUwjpVhtejmYCUsd-36" value="调整料仓出料时间" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="670" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VVCqYUwjpVhtejmYCUsd-39" value="显示出料，推杆电机，清洗进度，清洗状态，各种阀门状态" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="VVCqYUwjpVhtejmYCUsd-39" value="显示出料进度，推杆电机的状态" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="670" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3d6VD6Udmkg8xg0AreB-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="VVCqYUwjpVhtejmYCUsd-41" target="U3d6VD6Udmkg8xg0AreB-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VVCqYUwjpVhtejmYCUsd-41" value="可以开电磁锁，选择商品售罄" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="870" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VVCqYUwjpVhtejmYCUsd-43" value="刷新，保存修改" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
+        <mxCell id="U3d6VD6Udmkg8xg0AreB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="VVCqYUwjpVhtejmYCUsd-43" target="U3d6VD6Udmkg8xg0AreB-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VVCqYUwjpVhtejmYCUsd-43" value="定量出料" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="870" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BwGKjQOIs6-BQPAeacx0-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="BwGKjQOIs6-BQPAeacx0-2">
+        <mxCell id="BwGKjQOIs6-BQPAeacx0-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="BwGKjQOIs6-BQPAeacx0-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="790" y="380" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BwGKjQOIs6-BQPAeacx0-2" value="显示清洗进度" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+        <mxCell id="U3d6VD6Udmkg8xg0AreB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="BwGKjQOIs6-BQPAeacx0-2" target="U3d6VD6Udmkg8xg0AreB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BwGKjQOIs6-BQPAeacx0-2" value="显示清洗进度，清洗状态" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="870" y="350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BwGKjQOIs6-BQPAeacx0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="BwGKjQOIs6-BQPAeacx0-4">
+        <mxCell id="BwGKjQOIs6-BQPAeacx0-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="BwGKjQOIs6-BQPAeacx0-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="790" y="630" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BwGKjQOIs6-BQPAeacx0-4" value="禁用网卡" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+        <mxCell id="BwGKjQOIs6-BQPAeacx0-4" value="禁用网卡" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="870" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3d6VD6Udmkg8xg0AreB-1" value="通过制冰机来调整冰块大小" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3d6VD6Udmkg8xg0AreB-3" value="各个阀门的状态" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3d6VD6Udmkg8xg0AreB-5" value="人工选择物料售罄" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3d6VD6Udmkg8xg0AreB-7" value="推杆的上下操控" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="870" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U3d6VD6Udmkg8xg0AreB-9" value="通过调整按键时间来进行调整物料的量" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
